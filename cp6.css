@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+.head1 {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(209, 194, 194);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head1 ul li {
+  display: inline-block;
+}
+.icons {
+  margin-left: 70px;
+}
+.others1 {
+  margin-left: 800px;
+}
+.others {
+  margin-left: 10px;
+}
+.head1 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.head1 ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #0c0c0c;
+  transition: 0.5s;
+}
+.head1 ul li a:hover::after {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.head2 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0c0c14;
+  position: fixed;
+}
+
+.logo {
+  width: 40px;
+  background-color: white;
+  border: 2px solid rgb(145, 140, 140);
+  box-shadow: 2px 3px 5px #ffff;
+}
+.head2 a {
+  text-decoration: none;
+  color: #ffff;
+}
+.head2 a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffff;
+  transition: 0.5s;
+}
+.head2 a:hover::after {
+  width: 100%;
+  transition: 0.5s;
+}
+.content1 {
+  width: 98%;
+  background-image: url("https://www.nissanusa.com/content/dam/Nissan/us/homepage/2021-redesign/nissan-usa-v2.jpg");
+  height: 900px;
+  display: flex;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.text {
+  margin: 250px 0px 0px 50px;
+}
+.text h1 {
+  font-family: sans-serif;
+}
+/* .text p {
+  font-size: 25px;
+  font-weight: bolder;
+  display: inline-block;
+}
+.text h4{
+  display: inline;
+}
+.price{
+  display:inline;
+  margin-left: 40px;
+}
+.but1{
+  margin-left: 40px;
+  width: 120px;
+  height: 50px;
+  margin-bottom:px;
+} */
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.but1 {
+  width: 120px;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #23272a;
+  font-size: 15px;
+  color: #ffff;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.but1:hover {
+  transition: 300ms;
+  background-color: #ffff;
+  color: #23272a;
+}
+
+.price p {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.component {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.comp {
+  width: 30%;
+  overflow: hidden;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 10px 25px rgb(0 0 0 / 90%);
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+.comp:hover {
+  transform: scale(1.03);
+  transition: 400ms;
+}
+.bodytext {
+  background-color: #23272a;
+  width: 100%;
+  height: 500px;
+  margin-top: 160px;
+  display: flex;
+}
+
+.textarea {
+  width: 60%;
+  text-align: center;
+  margin-top: 200px;
+  margin-right: 600px;
+  margin-left: 50px;
+}
+.textarea:hover .ver p {
+  transform: scale(1.03);
+  transition: 400ms;
+  color: rgb(104, 255, 242);
+  text-shadow: 5px 5px 10px;
+}
+.textarea h1 {
+  color: #ff0000;
+  text-shadow: 5px 5px 10px;
+}
+.textarea p {
+  color: #ffff;
+  font-style: italic;
+  font-weight: bolder;
+}
+.ver p {
+  color: #ff0000;
+  font-style: normal;
+}
+
+.textarea h5 {
+  color: #fcfc04;
+}
+
+.formarea {
+  width: 40%;
+  margin-top: 250px;
+  color: #ffff;
+  margin-right: 100px;
+}
+.bodytext {
+  background-image: url(https://www.nissanusa.com/content/dam/Nissan/us/vehicles/gtr/2021/gallery/interior-mosaic/overlay/2021-nissan-gtr-steering-wheel-mounted-controls.jpg);
+  background-size: cover;
+  border-radius: 150px;
+  background-repeat: no-repeat;
+}
+.but2 {
+  margin-top: 40px;
+  margin-left: 70px;
+  width: 140px;
+  border-radius: 30px;
+  color: #23272a;
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: #ffff;
+}
+.but2:hover {
+  background-color: rgba(255, 38, 0, 0.973);
+  color: #ffff;
+  transition: 1s;
+}
+
+.firstfoot {
+  width: 100%;
+  height: 430px;
+  background-color: #191919;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  color: #ffff;
+}
+.firstfoot a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffff;
+}
+.firstfoot a:hover {
+  font-weight: bolder;
+  color: orangered;
+}
+.firstfoot div {
+  margin-top: 100px;
+}
+.fut1 li {
+  margin-top: 40px;
+}
+.fut2 li {
+  margin-top: 40px;
+}
+.fut3 li {
+  margin-top: 40px;
+}
+.fut4 li {
+  margin-top: 40px;
+}
+
+.but4 {
+  width: 200px;
+  height: 40px;
+  font-weight: bolder;
+  background-color: #da532c;
+  color: #ffff;
+}
+.but4:hover {
+  background-color: #b91d47;
+  color: #eff4ff;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  color: #ffff;
+  display: block;
+  box-sizing: border-box;
+}
+
+.foot1 {
+  text-align: center;
+}
+.foot1 h3 {
+  padding-top: 40px;
+}
+.foot2 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.foot2 p {
+  margin-top: 20px;
+}
+.regio {
+  cursor: pointer;
+}
+.regio:hover {
+  background-color: black;
+  color: #ffff;
+}
